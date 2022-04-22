@@ -1,4 +1,4 @@
-package com.tlongueira.springapp.web.controllers;
+package com.companyname.springapp.web.controllers;
 
 import javax.validation.Valid;
 
@@ -10,8 +10,8 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.tlongueira.springapp.bussiness.services.PriceIncrease;
-import com.tlongueira.springapp.bussiness.services.ProductManager;
+import com.companyname.springapp.business.services.PriceIncrease;
+import com.companyname.springapp.business.services.ProductManager;
 
 
 @Controller

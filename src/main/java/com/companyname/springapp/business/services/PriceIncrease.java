@@ -1,4 +1,4 @@
-package com.tlongueira.springapp.bussiness.services;
+package com.companyname.springapp.business.services;
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;

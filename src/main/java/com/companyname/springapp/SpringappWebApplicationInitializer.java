@@ -1,10 +1,9 @@
-package com.tlongueira.springapp;
+package com.companyname.springapp;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-import com.tlongueira.springapp.bussiness.SpringappBusinessConfig;
-import com.tlongueira.springapp.web.SpringappWebConfig1;
-
+import com.companyname.springapp.business.SpringappBusinessConfig;
+import com.companyname.springapp.web.SpringappWebConfig1;
 
 
 

@@ -1,4 +1,4 @@
-package com.tlongueira.springapp.bussiness.services;
+package com.companyname.springapp.bussiness.services;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,8 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.tlongueira.springapp.bussiness.entities.Product;
+import com.companyname.springapp.business.entities.Product;
+import com.companyname.springapp.business.services.SimpleProductManager;
 
 
 public class SimpleProductManagerTests {

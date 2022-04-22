@@ -1,4 +1,4 @@
-package com.tlongueira.springapp.bussiness.entities;
+package com.companyname.springapp.business.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

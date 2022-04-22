@@ -1,4 +1,4 @@
-package com.tlongueira.springapp.bussiness.repositories;
+package com.companyname.springapp.bussiness.repositories;
 
 import static org.junit.Assert.assertEquals;
 
@@ -10,8 +10,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.tlongueira.springapp.bussiness.SpringappBusinessConfig;
-import com.tlongueira.springapp.bussiness.entities.Product;
+import com.companyname.springapp.business.SpringappBusinessConfig;
+import com.companyname.springapp.business.entities.Product;
+import com.companyname.springapp.business.repositories.ProductRepository;
 
 
 @RunWith(SpringRunner.class)
@@ -30,7 +31,6 @@ public class ProductRepositoryTests {
     @Test
     public void testSaveProduct() {
         List<Product> products = (List<Product>) productRepository.findAll();
-
         Product p = products.get(0);
         Double price = p.getPrice();
         p.setPrice(200.12);

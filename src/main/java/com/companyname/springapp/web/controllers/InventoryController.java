@@ -1,4 +1,4 @@
-package com.tlongueira.springapp.web.controllers;
+package com.companyname.springapp.web.controllers;
 
 import java.util.Date;
 import java.util.HashMap;
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.tlongueira.springapp.bussiness.services.ProductManager;
+import com.companyname.springapp.business.services.ProductManager;
 
 
 @Controller

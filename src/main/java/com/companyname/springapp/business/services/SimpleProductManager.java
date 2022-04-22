@@ -1,8 +1,8 @@
-package com.tlongueira.springapp.bussiness.services;
+package com.companyname.springapp.business.services;
 
 import java.util.List;
 
-import com.tlongueira.springapp.bussiness.entities.Product;
+import com.companyname.springapp.business.entities.Product;
 
 
 public class SimpleProductManager implements ProductManager {

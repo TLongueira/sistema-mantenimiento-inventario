@@ -1,4 +1,4 @@
-package com.tlongueira.springapp.web;
+package com.companyname.springapp.web;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

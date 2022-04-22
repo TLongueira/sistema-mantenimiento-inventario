@@ -1,9 +1,11 @@
-package com.tlongueira.springapp.bussiness.entities;
+package com.companyname.springapp.bussiness.entities;
 
 import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import com.companyname.springapp.business.entities.Product;
 
 public class ProductTests {
 
